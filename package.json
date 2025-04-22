@@ -1,18 +1,10 @@
 {
-  "name": "my-gatsby-site",
-  "version": "1.0.0",
-  "private": true,
-  "description": "my-gatsby-site",
-  "author": "Natt Nguyen",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "dev": "gatsby develop",
+    "serve": "gatsby serve",
+    "start": "gatsby develop",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -24,6 +16,9 @@
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
+    "prettier": "^3.5.3",
+    "prettier-plugin-packagejson": "^2.5.10",
     "typescript": "^5.3.3"
-  }
+  },
+  "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971"
 }
